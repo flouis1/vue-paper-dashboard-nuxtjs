@@ -10,8 +10,8 @@
       <slot :row="item">
         <td v-for="(column, index) in columns"
             :key="index"
-            v-if="hasValue(item, column)">
-          {{itemValue(item, column)}}
+            // v-if="hasValue(item, column)">
+          // {{itemValue(item, column)}}
         </td>
       </slot>
     </tr>

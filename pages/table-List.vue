@@ -24,7 +24,6 @@
     </div>
 </template>
 <script>
-import { PaperTable } from "@/components";
 const tableColumns = ["Id", "Name", "Salary", "Country", "City"];
 const tableData = [
   {
@@ -66,7 +65,6 @@ const tableData = [
 
 export default {
   components: {
-    PaperTable
   },
   data() {
     return {
